@@ -6,3 +6,7 @@ We can achieve `Inversion of Control` through various mechanisms such as: `Strat
 
 
 ## Spring IoC container
+In a spring framework the `ApplicationContext` Interface represents the IoC container. The spring container is responsible for instantiating, configuring and assembling objects known as `Beans` as well as managing their life cycles.
+
+
+
