@@ -13,9 +13,9 @@ POJO stands for Plain Old Java Object. It is an ordinary Java object, not bound 
 
 A POJO should not:
 
--> Extend prespecified classes, Ex: public class GFG extends javax.servlet.http.HttpServlet { … } is not a POJO class.
--> Implement prespecified interfaces, Ex: public class Bar implements javax.ejb.EntityBean { … } is not a POJO class.
--> Contain prespecified annotations, Ex: @javax.persistence.Entity public class Baz { … } is not a POJO class.
+-> Extend prespecified classes, Ex: public class GFG extends javax.servlet.http.HttpServlet { … } is not a POJO class.  
+-> Implement prespecified interfaces, Ex: public class Bar implements javax.ejb.EntityBean { … } is not a POJO class.  
+-> Contain prespecified annotations, Ex: @javax.persistence.Entity public class Baz { … } is not a POJO class.  
 
 Beans are special type of Pojos. There are some restrictions on POJO to be a bean.
 
