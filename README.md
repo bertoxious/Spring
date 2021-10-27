@@ -67,3 +67,5 @@ POJO Class | Bean Class
 May or may not implement Serializable interface | must implement Serializable Interface  
 Can be accessed by using their names | Can only be accessed using getters and setters  
 Fields may have any of the access modifiers such as public, private, protected. | Fields can only have private access.  
+In POJO, it is not necessary to have a no-arg constructor; it may or may not have it. | It must have a noArgs constructor.  
+In POJO, it is not necessary to have a no-arg constructor; it may or may not have it. | The disadvantage of using the Bean is that the Default constructor and public setter can change the object state when it should be immutable.  
