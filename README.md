@@ -65,3 +65,7 @@ public void setSal(double sal) {
 POJO Class | Bean Class  
 May or may not implement Serializable interface | must implement Serializable Interface  
 Can be accessed by using their names | Can only be accessed using getters and setters  
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
