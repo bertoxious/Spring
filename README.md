@@ -5,7 +5,7 @@ In contrast with traditional programming, in which our custom code makes calls t
 We can achieve `Inversion of Control` through various mechanisms such as: `Strategy design pattern`, `Service Locator pattern`, `Factory pattern`, and `Dependency Injection (DI)`.
 
 ## BeanFactory vs Application Context  
-    | Bean Factory | Application Context  
+Properties | Bean Factory | Application Context  
 --- | -------- | --------  
 Annotation Support | No | Yes  
 BeanPostProcessorRegistration | Manual | Automatic  
