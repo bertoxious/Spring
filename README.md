@@ -64,6 +64,7 @@ public void setSal(double sal) {
 
 POJO Class | Bean Class  
 ----------  | ---------
+In Pojo, there are no special restrictions other than Java conventions. | It is a special type of POJO files, which have some special restrictions other than Java conventions.  
 May or may not implement Serializable interface | must implement Serializable Interface  
 Can be accessed by using their names | Can only be accessed using getters and setters  
 Fields may have any of the access modifiers such as public, private, protected. | Fields can only have private access.  
