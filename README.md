@@ -4,6 +4,16 @@ In contrast with traditional programming, in which our custom code makes calls t
 
 We can achieve `Inversion of Control` through various mechanisms such as: `Strategy design pattern`, `Service Locator pattern`, `Factory pattern`, and `Dependency Injection (DI)`.
 
+## BeanFactory vs Application Context
+    | Bean Factory | Application Context
+--- | -------- | --------
+Annotation Support | No | Yes  
+BeanPostProcessorRegistration | Manual | Automatic  
+Implementation | XMLBeanFactory | ClassPath/FileSystem/WebXMLApplicationContext  
+Internationalization | No | Yes  
+Enterprise Services | No | Yes  
+ApplicationEvent Publication | No | Yes  
+
 
 ## Spring IoC container
 In a spring framework the `ApplicationContext` Interface represents the IoC container. The spring container is responsible for instantiating, configuring and assembling objects known as `Beans` as well as managing their life cycles.
