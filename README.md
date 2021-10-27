@@ -63,6 +63,7 @@ public void setSal(double sal) {
 -> Fields are accessed only by constructor or getter setters.  
 
 POJO Class | Bean Class  
+----------  | ---------
 May or may not implement Serializable interface | must implement Serializable Interface  
 Can be accessed by using their names | Can only be accessed using getters and setters  
 
