@@ -5,6 +5,7 @@ In contrast with traditional programming, in which our custom code makes calls t
 We can achieve `Inversion of Control` through various mechanisms such as: `Strategy design pattern`, `Service Locator pattern`, `Factory pattern`, and `Dependency Injection (DI)`.
 
 ## BeanFactory vs Application Context  
+`BeanFactory` loads beans on-demand, while `ApplicationContext` loads all beans at startup. Thus, `BeanFactory` is lightweight as compared to `ApplicationContext`. Let's understand it with an example.  
 Properties | Bean Factory | Application Context  
 --- | -------- | --------  
 Annotation Support | No | Yes  
