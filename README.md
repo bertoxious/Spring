@@ -43,6 +43,16 @@ public void setSal(double sal) {
 }  
 }  
 
+#### Properties of POJO class
+-> The POJO class must be public.  
+-> It must have a public default constructor.  
+-> It may have the arguments constructor.  
+-> All objects must have some public Getters and Setters to access the object values by other Java Programs.  
+-> The object in the POJO Class can have any access modifies such as private, public, protected. But, all instance variables should be private for improved security of the project.  
+-> A POJO class should not extend predefined classes.  
+-> It should not implement prespecified interfaces.  
+-> It should not have any prespecified annotation.  
+
 #### Beans are special type of Pojos. There are some restrictions on POJO to be a bean.
 
 -> All JavaBeans are POJOs but not all POJOs are JavaBeans.  
