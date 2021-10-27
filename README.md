@@ -72,3 +72,8 @@ In POJO, it is not necessary to have a no-arg constructor; it may or may not hav
 In POJO, it is not necessary to have a no-arg constructor; it may or may not have it. | The disadvantage of using the Bean is that the Default constructor and public setter can change the object state when it should be immutable.  
 
 `Bean Factory` does not support annotation based Dependency Injection whereas `Application Context` does support annotation based Dependency Injection.  
+
+### Application Context Interface
+One of the main features of the Spring framework is the IoC (Inversion of Control) container. The Spring IoC container is responsible for managing the objects of an application.   It uses dependency injection to achieve inversion of control.  
+The interfaces BeanFactory and ApplicationContext represent the Spring IoC container. Here, BeanFactory is the root interface for accessing the Spring container. It provides basic functionalities for managing beans.  
+On the other hand, the ApplicationContext is a sub-interface of the BeanFactory. Therefore, it offers all the functionalities of BeanFactory.  
