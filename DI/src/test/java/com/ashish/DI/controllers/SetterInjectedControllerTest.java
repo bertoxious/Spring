@@ -1,11 +1,8 @@
 package com.ashish.DI.controllers;
 
-import com.ashish.DI.services.RandomService;
-import com.ashish.DI.services.RandomServiceImpl;
+import com.ashish.DI.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SetterInjectedControllerTest {
 
@@ -13,7 +10,7 @@ class SetterInjectedControllerTest {
     @BeforeEach
     void setUp(){
         controller = new SetterInjectedController();
-        controller.setAnotherRandomService( new RandomServiceImpl());
+        controller.setAnotherRandomService( new ConstructorGreetingService());
     }
     @Test
     void getRandomService() {

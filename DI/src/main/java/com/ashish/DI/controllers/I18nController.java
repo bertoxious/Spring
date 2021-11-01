@@ -5,14 +5,13 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class ConstructorInjectedController {
+public class I18nController {
     private final RandomService randomService;
 
-    public ConstructorInjectedController(RandomService randomService) {
+    public I18nController(@Qualifier("i18nService")  RandomService randomService) {
         this.randomService = randomService;
     }
-
-    public String getRandomService(){
+    public String sayGreeting(){
         return randomService.randomServiceMethod();
     }
 }
