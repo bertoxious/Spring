@@ -93,3 +93,4 @@ On the other hand, the ApplicationContext is a sub-interface of the BeanFactory.
 ## Autowired 
 The Spring framework enables automatic dependency injection. In other words, by declaring all the bean dependencies in a Spring configuration file, Spring container can autowire relationships between collaborating beans. This is called Spring bean autowiring.
 
+`If there is no active profile set spring will by default pick up default profile`
