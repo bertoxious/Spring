@@ -5,7 +5,12 @@
     <title>This is the Homepage</title>
 </head>
 <body>
-    <h1>Generating a random joke</h1>
-    <p th:text="${joke}">The joke generated is below</p>
+    <h1 style="justify-content:center;">Generating a random joke</h1>
+    <div style="display:flex; justify-content:center; align-items:center;">
+        <img style="max-width:25%; max-height:25%;" src="https://godlikegoats.gg/wp-content/uploads/2019/11/roseClan.png" alt="">
+    </div>
+    <div style="display:flex; justify-content:center; align-items:center; background-color:yellow;">
+        <h2 th:text="${joke}" style="color:purple; font-weight:1000;">The joke generated is below</h2>
+    </div>
 </body>
 </html>
