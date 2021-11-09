@@ -50,8 +50,7 @@
 <!--	plugins should be under plugin management otherwise it will generate error unable to find main class-->
 	</build>
 	<scm>
-		<developerConnection>scm:git:git@github.com:bertoxious/spring.git</developerConnection>
-	  <tag>UPet-4.0.0</tag>
+		<developerConnection>scm:git:git@github.com:bertoxious/UPet.git</developerConnection>
   </scm>
 
 </project>
